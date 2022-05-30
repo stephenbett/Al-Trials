@@ -34,12 +34,11 @@ Table 50102 Teacher
         }
         field(6; Mode; Option)
         {
-            OptionMembers = "full-time""Part-time";
-            OptionCaption = 'Full-time,Part_time';
+            OptionMembers = "full-time","Part-time";
+            OptionCaption = 'Full-time, Part_time';
         }
 
     }
-
     keys
     {
         key(PK; ID)
