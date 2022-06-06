@@ -6,7 +6,6 @@ page 50106 Student
     ApplicationArea = all;
     CardPageId = Student;
     Caption = 'Student L2';
-
     layout
     {
 

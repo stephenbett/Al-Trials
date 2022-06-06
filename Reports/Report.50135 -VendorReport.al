@@ -2,6 +2,7 @@ report 50135 Vendor_Report
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
+    RDLCLayout = 'Reports\Report.50135 -VendorReport.rdl';
 
     dataset
     {
@@ -34,6 +35,7 @@ report 50135 Vendor_Report
 
 
         }
+
 
         // requestpage
         // {
@@ -75,6 +77,14 @@ report 50135 Vendor_Report
         // }
 
     }
+    trigger OnPreReport()
+    var
+        myInt: Integer;
+    begin
+        CompInfo.get();
+        CompInfo.CalcFields(Picture);
+    end;
+
     var
         CompInfo: Record "Company Information";
 }
