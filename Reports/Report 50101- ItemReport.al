@@ -1,4 +1,4 @@
-report 50137 "Item Report"
+report 50100 "Item Report"
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;
@@ -91,4 +91,15 @@ report 50137 "Item Report"
 
     var
         CompInfo: Record "Company Information";
+
+
+    trigger OnPostReport()
+    var
+        repo: Label 'well Done';
+
+    begin
+
+    end;
+
+
 }

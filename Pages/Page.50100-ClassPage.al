@@ -1,4 +1,4 @@
-page 50102 ClassPage
+page 50100 ClassPage
 {
     PageType = Document;
     SourceTable = Classes;

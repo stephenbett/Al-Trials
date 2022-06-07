@@ -1,18 +1,18 @@
-page 50101 "Student List"
+page 50107 "Student Card"
+
 {
-    ApplicationArea = All;
-    Caption = 'Student List';
-    PageType = List;
+    PageType = Document;
     SourceTable = Student;
-    UsageCategory = Lists;
-    CardPageId = Student;
+    Caption = 'Student Card';
+
 
     layout
     {
-        area(content)
+        area(Content)
         {
-            repeater(General)
+            group(Student_Info)
             {
+                Caption = 'Student Info';
 
                 field(ID; ID)
                 {
@@ -40,5 +40,6 @@ page 50101 "Student List"
                 }
             }
         }
+
     }
 }

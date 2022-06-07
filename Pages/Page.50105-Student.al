@@ -1,4 +1,4 @@
-page 50106 Student
+page 50105 Student
 {
     PageType = List;
     SourceTable = Student;

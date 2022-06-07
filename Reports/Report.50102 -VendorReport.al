@@ -1,4 +1,4 @@
-report 50135 Vendor_Report
+report 50101 Vendor_Report
 {
     UsageCategory = ReportsAndAnalysis;
     ApplicationArea = All;

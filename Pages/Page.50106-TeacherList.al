@@ -1,14 +1,18 @@
-page 50104 "Teacher Card"
+page 50106 "Teacher List"
 {
-    PageType = Card;
+    ApplicationArea = all;
+    PageType = List;
+    UsageCategory = Lists;
     SourceTable = Teacher;
-    Caption = 'Teacher page';
+    CardPageId = "Teacher Card";
+    Caption = 'Teacher List';
+    Editable = false;
 
     layout
     {
         area(Content)
         {
-            group(Teachers)
+            repeater(Teachers)
             {
                 field(ID; ID)
                 {
@@ -38,9 +42,7 @@ page 50104 "Teacher Card"
                     ApplicationArea = All;
                 }
             }
-
         }
     }
-
 
 }

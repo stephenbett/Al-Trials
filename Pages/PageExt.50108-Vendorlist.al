@@ -1,4 +1,4 @@
-pageextension 50136 VendoeExt_List extends "Vendor List"
+pageextension 50108 VendoeExt_List extends "Vendor List"
 {
     layout
     {
